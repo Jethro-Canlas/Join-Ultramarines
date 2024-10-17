@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ultramarines</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <div class="container">
+        <div class="header">
+            <header>
+                <img src="media/ultra-logo.png" alt="Ultramarines logo" id="ultramarines-logo">
+                <nav class="mobile-nav">
+                    <div id="menu-links">
+                    <a href="index.htm">Home</a>
+                    <a href="command.htm">Command</a>
+                    <a href="find.htm">Find Us</a>
+                    <a href="about.htm">About Us</a>
+                    </div>
+                    <a class="menu-icon" onclick="hamburger()">
+                        <div>&#9776;</div>
+                    </a>
+                </nav>
+                
+                <nav class="tablet-desktop">
+                    <ul>
+                        <li><a href="index.htm">Home</a></li>
+                        <li><a href="command.htm">Command</a></li>
+                        <li><a href="find.htm">Find Us</a></li>
+                        <li><a href="about.htm">About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="line"></div>
+            </header>
+            <main>
+                <div class="command-container">
+                    <p>Strategic disposition of the Ultramarines Chapter in the third year of the Indomitus Crusade (local fleet technology)</p>
+                    <table class="command-table">
+                        <tr>
+                            <td colspan="5" class="t-header">Chapter Command</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5"><img src="media/primarch.png" alt="logo of lord commander of the imperium" id="primarch"><br>Roboute Guilliman<br>Primarch of the Ultramarines<br>Lord Commander of the Imperium</td>
+                        </tr>
+                        <tr><td colspan="5"><img src="media/calgar_banner.webp" alt="banner of Marneus Calgar"><br>Marneus Calgar<br>Lord of Macragge<br>Chapter Master of the Ultramarines<br>Victrix Guard<br>Chapter Equerries<br>Chapter Serfs & Servitors</tr></td>
+                        <tr>
+                            <td class="t-header">Armoury</td>
+                            <td class="t-header">Reclusium</td>
+                            <td class="t-header">Apothecarion</td>
+                            <td class="t-header">Librarius</td>
+                            <td class="t-header">Master of the Fleet</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/forge.webp" alt="armoury logo"><br>
+                                Fennias Maxim<br>
+                                Master of the Forge<br>
+                                Techmarines<br>
+                                Servitors<br>
+                                Battle Tanks (multiple types)<br>
+                                Gunships<br>
+                                Centurion Warsuits<br>
+                                Land Speeders<br>
+                                Assault Bikes<br>
+                                Attack Bikes<br>
+                                Transport Vehicles
+                            </td>
+                            <td>
+                                <img src="media/reclusium.webp" alt="logo"><br>
+                                Ortan Cassius<br>
+                                Master of Sanctity<br>
+                                Julianus Akillan<br>
+                                Reclusiarch<br>
+                                Chaplains
+                            </td>
+                            <td>
+                                <img src="media/apothecary.webp" alt="logo"><br>
+                                Corpus Helix<br>
+                                Chief Apothecary<br>
+                                Apothecaries
+                            </td>
+                            <td>
+                                <img src="media/librarian.webp" alt="logo"><br>
+                                Varro Tigurius<br>
+                                Chief Librarian<br>
+                                Epistolaries<br>
+                                Codiciers<br>
+                                Lexicaniums<br>
+                                Acolytum
+                            </td>
+                            <td>
+                                Lazlo Tiberius<br>
+                                Master of the Fleet<br>
+                                10 Battle Barges<br>
+                                15 Strike Cruisers<br>
+                                20 Escorts<br>
+                                75 Thunderhawk
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" class="t-header">Companies</td>
+                        </tr>
+                        <tr>
+                            <td class="t-header">Veteran Company</td>
+                            <td colspan="4" class="t-header">Battle Companies</td>
+                        </tr>
+                        <tr>
+                            <td class="t-header">1st Company</td>
+                            <td class="t-header">2nd Company</td>
+                            <td class="t-header">3rd Company</td>
+                            <td class="t-header">4th Company</td>
+                            <td class="t-header">5th Company</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/1st.webp" alt="logo"><br>
+                                "Warriors of Ultramar"<br>
+                                Captain Severus Agemman<br>
+                                Regent of Ultramar<br>
+                                97 Veterans (including Terminators)<br>
+                                3 Dreadnoughts
+                            </td>
+                            <td>
+                                <img src="media/2nd.webp" alt="logo"><br>
+                                "Guardians of the Temple"<br>
+                                Captain Cato Sicarius<br>
+                                Master of the Watch<br>
+                                6 Tactical Squads<br>
+                                2 Assault Squads<br>
+                                2 Devastator Squad<br>
+                                2 Dreadnoughts
+                            </td>
+                            <td>
+                                <img src="media/3rd.webp" alt="logo"><br>
+                                "Scourge of the Xenos"<br>
+                                Captain Jehnnus Ardias / Captain Mikael Fabian<br>
+                                Master of the Arsenal<br>
+                                6 Tactical Squads<br>
+                                2 Assault Squads<br>
+                                2 Devastator Squads<br>
+                                2 Dreadnoughts
+                            </td>
+                            <td>
+                                <img src="media/4th.webp" alt="logo"><br>
+                                "Defenders of Ultramar"<br>
+                                Captain Uriel Ventris<br>
+                                6 Tactical Squads<br>
+                                2 Assault Squads<br>
+                                2 Devastator Squads<br>
+                                4 Dreadnoughts
+                            </td>
+                            <td>
+                                <img src="media/5th.webp" alt="logo"><br>
+                                "Wardens of the Eastern Fringe"<br>
+                                Captain Caito Galenus<br>
+                                Master of the Marches<br>
+                                6 Tactical Squads<br>
+                                2 Assault Squads<br>
+                                2 Devastator Squads<br>
+                                1 Dreadnought
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="t-header">Reserve Companies</td>
+                            <td class="t-header">Scout Company</td>
+                        </tr>
+                        <tr>
+                            <td class="t-header">6th Company</td>
+                            <td class="t-header">7th Company</td>
+                            <td class="t-header">8th Company</td>
+                            <td class="t-header">9th Company</td>
+                            <td class="t-header">10th Company</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="media/6th.webp" alt="logo"><br>
+                                Reserve Tactical Company<br>
+                                Captain Maximus Epathus<br>
+                                Master of the Rites<br>
+                                10 Tactical Squads<br>
+                                4 Dreadnoughts
+                            </td>
+                            <td>
+                                <img src="media/7th.webp" alt="logo"><br>
+                                Reserve Tactical Company<br>
+                                Captain Gerad Ixion<br>
+                                Chief Victualler<br>
+                                10 Tactical Squads<br>
+                                3 Dreadnoughts
+                            </td>                            
+                            <td>
+                                <img src="media/8th.webp" alt="logo"><br>
+                                Reserve Company<br>
+                                Captain Numitor<br>
+                                Lord Executioner<br>
+                                10 Assault Squads
+                            </td>
+                            <td>
+                                <img src="media/9th.webp" alt="logo"><br>
+                                Reserve Company<br>
+                                Captain Sinon<br>
+                                Master of Relics<br>
+                                10 Devastator Squads<br>
+                                7 Dreadnoughts
+                            </td>
+                            <td>
+                                <img src="media/10th.webp" alt="logo"><br>
+                                Scout Company<br>
+                                Captain Antilochus<br>
+                                Master of Recruits<br>
+                                Scout Squads
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+            <footer>
+                <div class="line"></div>
+                <div class="footer-text">
+                    <h1><a href="https://www.warhammer.com/en-WW/home" target="_blank">Games Workshop</a></h1>
+                    <h1><a href="https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki" target="_blank">Fandom</a></h1>
+                    <p>GW, Games Workshop, Space Marine, 40K, Warhammer, Warhammer 40,000, and all associated logos, illustrations, images, names, creatures, races, vehicles, locations, weapons, characters, and the distinctive likenesses thereof, are either ® or ™, and/or © Games Workshop Limited, variably registered around the world. All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src = "scripts.js"></script>
+    </body>
+</html>
